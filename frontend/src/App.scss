@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+@import url("https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css");
+
+.app {
+  position: relative;
+  max-width: 100%;
+  min-height: 100vh;
+  font-family: Roboto;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  height: calc(100vh - 88px);
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-top: 88px;
+  padding: 48px 16px;
+}
+
+.container {
+  @media only screen and (min-width: 1024px) {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+h1 {
+  font-size: 50px;
+  color: #24609b;
+  font-weight: 300;
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 84px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  color: #24609b;
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 34px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+  color: #24609b;
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 28px;
+  }
+}
+
+h4 {
+  font-size: 16px;
+  color: #24609b;
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 22px;
+  }
+}
+
+p {
+  font-size: 16px;
+  color: #1f1e31;
+}

@@ -1,0 +1,36 @@
+i {
+  color: #24609b;
+  line-height: 1;
+
+  &[data-size="small"] {
+    font-size: 32px;
+  }
+
+  &[data-size="medium"] {
+    font-size: 40px;
+  }
+
+  &[data-size="xlarge"] {
+    font-size: 64px;
+  }
+
+  &[data-color="best"] {
+    color: #4db482;
+  }
+
+  &[data-color="good"] {
+    color: #b2be67;
+  }
+
+  &[data-color="ok"] {
+    color: #ffa953;
+  }
+
+  &[data-color="bad"] {
+    color: #ff6543;
+  }
+
+  &[data-color="worst"] {
+    color: #ff3000;
+  }
+}

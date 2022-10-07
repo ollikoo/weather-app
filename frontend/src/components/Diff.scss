@@ -1,0 +1,75 @@
+.diff {
+  h2 {
+    margin-bottom: 32px;
+  }
+
+  .select {
+    margin-bottom: 32px;
+
+    &__control {
+      border-color: #e1e8ec;
+      cursor: pointer;
+      height: 60px;
+
+      &:hover {
+        border-color: #62626f;
+      }
+    }
+
+    &__single-value {
+      font-size: 16px;
+      color: #24609b;
+
+      @media only screen and (min-width: 1024px) {
+        font-size: 22px;
+      }
+    }
+
+    &__indicator-separator {
+      background-color: #e1e8ec;
+    }
+
+    &__indicator {
+      svg {
+        fill: #24609b;
+      }
+    }
+
+    &__menu {
+      padding: 0;
+      box-shadow: none;
+      border: 1px solid #e1e8ec;
+    }
+
+    &__menu-list {
+      padding: 0;
+    }
+
+    &__option {
+      padding: 16px;
+      font-size: 16px;
+      cursor: pointer;
+      color: #1f1e31;
+
+      &--is-focused {
+        background-color: transparent;
+        color: #1f1e31;
+      }
+
+      &--is-selected {
+        background-color: #24609b;
+        color: #fff;
+
+        &:hover {
+          background-color: #24609b !important;
+          color: #fff !important;
+        }
+      }
+
+      &:hover {
+        background-color: #ecf3f8;
+        color: #1f1e31;
+      }
+    }
+  }
+}
