@@ -2,6 +2,13 @@
 
 Assignment's purpose is to create a backend service that returns sensor data from the database.
 
+# Solution
+
+- A frontend with React, Typescript and Sass
+- A backend with Node.js, Typescript, Express.js and SQLite
+
+---
+
 #### To get started
 
 1. Select technology you want to use
