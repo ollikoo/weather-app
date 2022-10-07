@@ -5,7 +5,7 @@ Assignment's purpose is to create a backend service that returns sensor data fro
 # Solution
 
 - A frontend with React, Typescript and Sass
-- A backend with Node.js, Typescript, Express.js and SQLite
+- A backend with Node.js, Typescript, Express.js and Better SQLite3
 
 ---
 
